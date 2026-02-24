@@ -21,3 +21,7 @@ La aplicación se compone de tres capas principales, orquestadas con Docker Comp
   - Inicializada con usuario `postgres`, password `postgres`, base `miapp`.
 
 ## Flujo de comunicación
+1. El usuario interactúa con el **Frontend Angular PWA**.
+2. El frontend envía solicitudes al **Backend Node.js/Express** vía API REST.
+3. El backend procesa la lógica y consulta la **Base de Datos PostgreSQL**.
+4. Los resultados se devuelven al frontend para mostrarse al usuario.
